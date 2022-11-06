@@ -1,0 +1,54 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.GainRatioAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     2000 to 2019-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R7
+Instances:    4507
+Attributes:   16
+              Team 1
+              Result
+              Winner
+              Toss
+              Bat
+              Team 2
+              Host_Country
+              Venue_Team 1
+              Venue_Team 2
+              Inning_Team1
+              Inning_Team2
+              Team1_Toss
+              Margin
+              Team2_Toss
+              Winner_Inning
+              pitchn
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 2 Result):
+	Gain Ratio feature evaluator
+
+Ranked attributes:
+ 0.01587966   1 Team 1
+ 0.01313525   6 Team 2
+ 0.00815311   9 Venue_Team 2
+ 0.007904     8 Venue_Team 1
+ 0.00718167   3 Winner
+ 0.00058584  13 Margin
+ 0.00046937   5 Bat
+ 0.00046937  11 Inning_Team2
+ 0.00046937  10 Inning_Team1
+ 0.00033808  16 pitchn
+ 0.00032375   7 Host_Country
+ 0.00015934  12 Team1_Toss
+ 0.00015934  14 Team2_Toss
+ 0.00015934   4 Toss
+ 0.00000219  15 Winner_Inning
+
+Selected attributes: 1,6,9,8,3,13,5,11,10,16,7,12,14,4,15 : 15
+
