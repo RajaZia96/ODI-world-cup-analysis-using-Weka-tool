@@ -1,0 +1,291 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     2000 to 2019-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R13
+Instances:    4507
+Attributes:   15
+              Team 1
+              Result
+              Winner
+              Toss
+              Bat
+              Team 2
+              Host_Country
+              Venue_Team 1
+              Venue_Team 2
+              Inning_Team1
+              Inning_Team2
+              Team1_Toss
+              Team2_Toss
+              Winner_Inning
+              pitchn
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Team 2 =  West Indies
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (23.0)
+|   |   Team 1 = West Indies: India (0.0)
+|   |   Team 1 = Australia: Australia (37.0)
+|   |   Team 1 = India: India (45.0)
+|   |   Team 1 = South Africa: South Africa (37.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (10.0)
+|   |   Team 1 = England: England (32.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (20.0)
+|   |   Team 1 = Bangladesh: Bangladesh (15.0)
+|   |   Team 1 = Netherlands: India (0.0)
+|   |   Team 1 = Ireland: Ireland (2.0)
+|   |   Team 1 = Afghanistan: Afghanistan (3.0)
+|   |   Team 1 = Pakistan: Pakistan (5.0)
+|   Result = lost: West Indies (144.0)
+Team 2 =  New Zealand
+|   Result = won
+|   |   Team 1 = New Zealand: Australia (0.0)
+|   |   Team 1 = West Indies: West Indies (11.0)
+|   |   Team 1 = Australia: Australia (43.0)
+|   |   Team 1 = India: India (28.0)
+|   |   Team 1 = South Africa: South Africa (36.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (7.0)
+|   |   Team 1 = England: England (21.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (31.0)
+|   |   Team 1 = Bangladesh: Bangladesh (10.0)
+|   |   Team 1 = Netherlands: Australia (0.0)
+|   |   Team 1 = Ireland: Australia (0.0)
+|   |   Team 1 = Afghanistan: Australia (0.0)
+|   |   Team 1 = Pakistan: Pakistan (4.0)
+|   Result = lost: New Zealand (207.0/1.0)
+Team 2 =  Pakistan
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (37.0)
+|   |   Team 1 = West Indies: West Indies (16.0)
+|   |   Team 1 = Australia: Australia (49.0)
+|   |   Team 1 = India: India (29.0)
+|   |   Team 1 = South Africa: South Africa (35.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (3.0)
+|   |   Team 1 = England: England (29.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (38.0/1.0)
+|   |   Team 1 = Bangladesh: Bangladesh (7.0)
+|   |   Team 1 = Netherlands: Australia (0.0)
+|   |   Team 1 = Ireland: Pakistan (1.0)
+|   |   Team 1 = Afghanistan: Australia (0.0)
+|   |   Team 1 = Pakistan: Australia (0.0)
+|   Result = lost: Pakistan (257.0/7.0)
+Team 2 =  India
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (23.0)
+|   |   Team 1 = West Indies: West Indies (24.0)
+|   |   Team 1 = Australia: Australia (51.0)
+|   |   Team 1 = India: Australia (0.0)
+|   |   Team 1 = South Africa: South Africa (29.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (5.0)
+|   |   Team 1 = England: England (27.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (34.0)
+|   |   Team 1 = Bangladesh: Bangladesh (7.0)
+|   |   Team 1 = Netherlands: Australia (0.0)
+|   |   Team 1 = Ireland: Australia (0.0)
+|   |   Team 1 = Afghanistan: Australia (0.0)
+|   |   Team 1 = Pakistan: Pakistan (2.0)
+|   Result = lost: India (317.0)
+Team 2 =  Australia
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (21.0)
+|   |   Team 1 = West Indies: West Indies (8.0)
+|   |   Team 1 = Australia: South Africa (0.0)
+|   |   Team 1 = India: India (29.0)
+|   |   Team 1 = South Africa: South Africa (37.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (2.0)
+|   |   Team 1 = England: England (33.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (19.0/1.0)
+|   |   Team 1 = Bangladesh: Bangladesh (1.0)
+|   |   Team 1 = Netherlands: South Africa (0.0)
+|   |   Team 1 = Ireland: South Africa (0.0)
+|   |   Team 1 = Afghanistan: South Africa (0.0)
+|   |   Team 1 = Pakistan: Pakistan (1.0)
+|   Result = lost: Australia (313.0)
+Team 2 =  Zimbabwe
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (16.0)
+|   |   Team 1 = West Indies: West Indies (31.0)
+|   |   Team 1 = Australia: Australia (14.0)
+|   |   Team 1 = India: India (35.0)
+|   |   Team 1 = South Africa: South Africa (38.0)
+|   |   Team 1 = Zimbabwe: Bangladesh (0.0)
+|   |   Team 1 = England: England (19.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (29.0)
+|   |   Team 1 = Bangladesh: Bangladesh (52.0)
+|   |   Team 1 = Netherlands: Netherlands (2.0)
+|   |   Team 1 = Ireland: Ireland (8.0)
+|   |   Team 1 = Afghanistan: Afghanistan (23.0)
+|   |   Team 1 = Pakistan: Pakistan (10.0)
+|   Result = lost: Zimbabwe (84.0)
+Team 2 =  South Africa
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (20.0)
+|   |   Team 1 = West Indies: West Indies (10.0)
+|   |   Team 1 = Australia: Australia (37.0)
+|   |   Team 1 = India: India (29.0)
+|   |   Team 1 = South Africa: Australia (0.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (1.0)
+|   |   Team 1 = England: England (21.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (26.0)
+|   |   Team 1 = Bangladesh: Bangladesh (6.0)
+|   |   Team 1 = Netherlands: Australia (0.0)
+|   |   Team 1 = Ireland: Australia (0.0)
+|   |   Team 1 = Afghanistan: Australia (0.0)
+|   |   Team 1 = Pakistan: Pakistan (5.0)
+|   Result = lost: South Africa (263.0)
+Team 2 =  England
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (26.0)
+|   |   Team 1 = West Indies: West Indies (15.0)
+|   |   Team 1 = Australia: Australia (55.0)
+|   |   Team 1 = India: India (40.0)
+|   |   Team 1 = South Africa: South Africa (17.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (3.0)
+|   |   Team 1 = England: Australia (0.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (38.0)
+|   |   Team 1 = Bangladesh: Bangladesh (5.0)
+|   |   Team 1 = Netherlands: Australia (0.0)
+|   |   Team 1 = Ireland: Ireland (1.0)
+|   |   Team 1 = Afghanistan: Australia (0.0)
+|   |   Team 1 = Pakistan: Pakistan (4.0)
+|   Result = lost: England (221.0/1.0)
+Team 2 =  Bangladesh
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (24.0)
+|   |   Team 1 = West Indies: West Indies (21.0)
+|   |   Team 1 = Australia: Australia (17.0)
+|   |   Team 1 = India: India (27.0)
+|   |   Team 1 = South Africa: South Africa (18.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (24.0)
+|   |   Team 1 = England: England (17.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (36.0)
+|   |   Team 1 = Bangladesh: Sri Lanka (0.0)
+|   |   Team 1 = Netherlands: Netherlands (1.0)
+|   |   Team 1 = Ireland: Ireland (2.0)
+|   |   Team 1 = Afghanistan: Afghanistan (3.0)
+|   |   Team 1 = Pakistan: Pakistan (2.0)
+|   Result = lost: Bangladesh (121.0/1.0)
+Team 2 =  Sri Lanka
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (33.0)
+|   |   Team 1 = West Indies: West Indies (7.0)
+|   |   Team 1 = Australia: Australia (34.0)
+|   |   Team 1 = India: India (68.0)
+|   |   Team 1 = South Africa: South Africa (38.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (6.0)
+|   |   Team 1 = England: England (27.0)
+|   |   Team 1 = Sri Lanka: India (0.0)
+|   |   Team 1 = Bangladesh: Bangladesh (7.0)
+|   |   Team 1 = Netherlands: India (0.0)
+|   |   Team 1 = Ireland: India (0.0)
+|   |   Team 1 = Afghanistan: Afghanistan (1.0)
+|   |   Team 1 = Pakistan: Pakistan (12.0)
+|   Result = lost: Sri Lanka (251.0/1.0)
+Team 2 =  Netherlands
+|   Team 1 = New Zealand: Ireland (0.0)
+|   Team 1 = West Indies: West Indies (2.0)
+|   Team 1 = Australia: Australia (2.0)
+|   Team 1 = India: India (2.0)
+|   Team 1 = South Africa: South Africa (3.0)
+|   Team 1 = Zimbabwe: Netherlands (3.0/1.0)
+|   Team 1 = England: England (2.0)
+|   Team 1 = Sri Lanka: Sri Lanka (3.0)
+|   Team 1 = Bangladesh: Bangladesh (2.0/1.0)
+|   Team 1 = Netherlands: Ireland (0.0)
+|   Team 1 = Ireland: Ireland (8.0/1.0)
+|   Team 1 = Afghanistan
+|   |   Result = won: Afghanistan (4.0)
+|   |   Result = lost: Netherlands (2.0)
+|   Team 1 = Pakistan: Ireland (0.0)
+Team 2 =  Ireland
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (4.0)
+|   |   Team 1 = West Indies: West Indies (7.0)
+|   |   Team 1 = Australia: Australia (5.0)
+|   |   Team 1 = India: India (4.0)
+|   |   Team 1 = South Africa: South Africa (6.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (8.0)
+|   |   Team 1 = England: England (8.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (5.0)
+|   |   Team 1 = Bangladesh: Bangladesh (7.0)
+|   |   Team 1 = Netherlands: Netherlands (1.0)
+|   |   Team 1 = Ireland: Afghanistan (0.0)
+|   |   Team 1 = Afghanistan: Afghanistan (14.0)
+|   |   Team 1 = Pakistan: Pakistan (2.0)
+|   Result = lost: Ireland (34.0)
+Team 2 =  Afghanistan
+|   Result = won
+|   |   Team 1 = New Zealand: New Zealand (3.0)
+|   |   Team 1 = West Indies: West Indies (5.0)
+|   |   Team 1 = Australia: Australia (4.0)
+|   |   Team 1 = India: India (3.0)
+|   |   Team 1 = South Africa: South Africa (1.0)
+|   |   Team 1 = Zimbabwe: Zimbabwe (16.0)
+|   |   Team 1 = England: England (3.0)
+|   |   Team 1 = Sri Lanka: Sri Lanka (5.0)
+|   |   Team 1 = Bangladesh: Bangladesh (6.0)
+|   |   Team 1 = Netherlands: Netherlands (2.0)
+|   |   Team 1 = Ireland: Ireland (14.0)
+|   |   Team 1 = Afghanistan: Zimbabwe (0.0)
+|   |   Team 1 = Pakistan: Pakistan (2.0)
+|   Result = lost: Afghanistan (49.0)
+
+Number of Leaves  : 	182
+
+Size of the tree : 	209
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4476               99.3122 %
+Incorrectly Classified Instances        31                0.6878 %
+Kappa statistic                          0.9923
+Mean absolute error                      0.0015
+Root mean squared error                  0.0289
+Relative absolute error                  1.0938 %
+Root relative squared error             11.0043 %
+Total Number of Instances             4507     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    0.998      1.000    0.999      0.999    1.000     0.997     New Zealand
+                 0.990    0.002    0.977      0.990    0.983      0.982    0.996     0.971     Pakistan
+                 0.992    0.001    0.994      0.992    0.993      0.992    0.996     0.994     Australia
+                 0.995    0.001    0.996      0.995    0.996      0.995    0.999     0.997     South Africa
+                 0.998    0.000    0.998      0.998    0.998      0.998    0.999     0.995     England
+                 0.997    0.000    0.998      0.997    0.998      0.997    0.998     0.997     India
+                 0.977    0.001    0.982      0.977    0.979      0.979    0.988     0.977     Zimbabwe
+                 0.996    0.001    0.993      0.996    0.994      0.994    0.997     0.988     Sri Lanka
+                 0.997    0.000    1.000      0.997    0.998      0.998    0.998     0.997     West Indies
+                 0.996    0.000    0.992      0.996    0.994      0.994    0.998     0.984     Bangladesh
+                 0.417    0.000    0.833      0.417    0.556      0.589    0.833     0.549     Netherlands
+                 0.985    0.001    0.957      0.985    0.971      0.971    0.993     0.969     Ireland
+                 0.990    0.000    0.980      0.990    0.985      0.984    0.995     0.990     Afghanistan
+Weighted Avg.    0.993    0.001    0.993      0.993    0.993      0.992    0.997     0.990     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   m   <-- classified as
+ 436   0   0   0   0   0   0   0   0   0   0   0   0 |   a = New Zealand
+   0 298   1   1   0   0   0   1   0   0   0   0   0 |   b = Pakistan
+   1   1 659   0   0   0   0   1   0   0   0   2   0 |   c = Australia
+   0   2   0 557   0   0   1   0   0   0   0   0   0 |   d = South Africa
+   0   1   0   0 459   0   0   0   0   0   0   0   0 |   e = England
+   0   1   0   0   0 656   0   1   0   0   0   0   0 |   f = India
+   0   0   2   0   0   0 167   0   0   1   1   0   0 |   g = Zimbabwe
+   0   1   0   0   1   0   0 532   0   0   0   0   0 |   h = Sri Lanka
+   0   1   0   0   0   0   0   0 301   0   0   0   0 |   i = West Indies
+   0   0   0   1   0   0   0   0   0 243   0   0   0 |   j = Bangladesh
+   0   0   0   0   0   0   2   1   0   1   5   1   2 |   k = Netherlands
+   0   0   1   0   0   0   0   0   0   0   0  67   0 |   l = Ireland
+   0   0   0   0   0   1   0   0   0   0   0   0  96 |   m = Afghanistan
+
