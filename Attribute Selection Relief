@@ -1,0 +1,57 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ReliefFAttributeEval -M -1 -D 1 -K 10
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     2000 to 2019-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R7
+Instances:    4507
+Attributes:   16
+              Team 1
+              Result
+              Winner
+              Toss
+              Bat
+              Team 2
+              Host_Country
+              Venue_Team 1
+              Venue_Team 2
+              Inning_Team1
+              Inning_Team2
+              Team1_Toss
+              Margin
+              Team2_Toss
+              Winner_Inning
+              pitchn
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 3 Winner):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.48001   6 Team 2
+ 0.46345   1 Team 1
+ 0.32313   7 Host_Country
+ 0.30488  16 pitchn
+ 0.16186   2 Result
+ 0.14179  15 Winner_Inning
+ 0.05428   9 Venue_Team 2
+ 0.05417   8 Venue_Team 1
+ 0.03627  13 Margin
+ 0.00361  11 Inning_Team2
+ 0.00361  10 Inning_Team1
+ 0.00361   5 Bat
+-0.01099   4 Toss
+-0.01099  14 Team2_Toss
+-0.01099  12 Team1_Toss
+
+Selected attributes: 6,1,7,16,2,15,9,8,13,11,10,5,4,14,12 : 15
+
