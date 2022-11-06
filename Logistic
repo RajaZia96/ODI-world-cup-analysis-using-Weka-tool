@@ -1,0 +1,232 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     2000 to 2019-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R13
+Instances:    4507
+Attributes:   15
+              Team 1
+              Result
+              Winner
+              Toss
+              Bat
+              Team 2
+              Host_Country
+              Venue_Team 1
+              Venue_Team 2
+              Inning_Team1
+              Inning_Team2
+              Team1_Toss
+              Team2_Toss
+              Winner_Inning
+              pitchn
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                     Class
+Variable                               won
+==========================================
+Team 1=New Zealand                  0.2408
+Team 1=West Indies                 -0.4727
+Team 1=Australia                    0.9702
+Team 1=India                        0.5553
+Team 1=South Africa                 0.7086
+Team 1=Zimbabwe                    -1.6852
+Team 1=England                       0.293
+Team 1=Sri Lanka                    0.3497
+Team 1=Bangladesh                  -1.0064
+Team 1=Netherlands                 -2.5922
+Team 1=Ireland                     -1.6769
+Team 1=Afghanistan                 -1.3584
+Team 1=Pakistan                     1.1771
+Winner=New Zealand                  0.1918
+Winner=Pakistan                    -2.6896
+Winner=Australia                    0.2408
+Winner=South Africa                  0.221
+Winner=England                      0.1973
+Winner=India                        0.2356
+Winner=Zimbabwe                     0.1088
+Winner=Sri Lanka                    0.1925
+Winner=West Indies                  0.2122
+Winner=Bangladesh                   0.1926
+Winner=Netherlands                  0.1018
+Winner=Ireland                      0.0494
+Winner=Afghanistan                  0.0432
+Toss=won                           -0.0223
+Bat=first                          -0.0787
+Team 2= West Indies                 0.3437
+Team 2= New Zealand                -0.3973
+Team 2= Pakistan                    0.8719
+Team 2= India                       -0.806
+Team 2= Australia                  -1.2151
+Team 2= Zimbabwe                    1.6764
+Team 2= South Africa               -0.8294
+Team 2= England                     -0.487
+Team 2= Bangladesh                  0.7658
+Team 2= Sri Lanka                  -0.3957
+Team 2= Netherlands                 2.5383
+Team 2= Ireland                     1.7617
+Team 2= Afghanistan                 1.3029
+Host_Country=New Zealand           -0.0152
+Host_Country=Australia             -0.0089
+Host_Country=South Africa          -0.0172
+Host_Country=Pakistan                0.177
+Host_Country=Zimbabwe               0.0232
+Host_Country=India                 -0.0007
+Host_Country=U.A.E                 -0.0714
+Host_Country=West Indies             0.007
+Host_Country=Bangladesh            -0.0166
+Host_Country=Sri Lanka              -0.012
+Host_Country=England                0.0055
+Host_Country=Singapore             -0.3356
+Host_Country=Netherlands           -0.0334
+Host_Country=India                 -0.0577
+Host_Country=Abu Dhabi              0.2274
+Host_Country=Ireland               -0.0073
+Host_Country=Malaysia               0.0071
+Host_Country=Scotland              -0.0126
+Host_Country=Netherlands            0.0067
+Venue_Team 1=Home                  -6.2465
+Venue_Team 1=Away                   6.3607
+Venue_Team 1=Neutral                0.0073
+Venue_Team 2=Away                   6.6709
+Venue_Team 2=Home                  -6.8092
+Venue_Team 2=Neutral                0.0073
+Inning_Team1=first                 -0.0787
+Inning_Team2=2nd                   -0.0787
+Team1_Toss=won                     -0.0223
+Team2_Toss=lost                    -0.0223
+Winner_Inning=1stinningwinner      -0.0206
+pitchn=fast/green/swing/bouncy     -0.0152
+pitchn=fast/ high bounce           -0.0089
+pitchn=fast/high bounce            -0.0172
+pitchn= flat/dead                    0.177
+pitchn=slow/dusty                   0.0063
+pitchn=flat/dead                   -0.0045
+pitchn=flat/dead/dry                0.0074
+pitchn=dry/dusty                    -0.012
+pitchn=fast/green/bouncy/swing      0.0055
+pitchn=fast/green/bouncy           -0.0334
+pitchn=flat/dead                   -0.0577
+pitchn=fast/green/bouncy           -0.0063
+Intercept                           0.1223
+
+
+Odds Ratios...
+                                     Class
+Variable                               won
+==========================================
+Team 1=New Zealand                  1.2722
+Team 1=West Indies                  0.6233
+Team 1=Australia                    2.6384
+Team 1=India                        1.7425
+Team 1=South Africa                 2.0312
+Team 1=Zimbabwe                     0.1854
+Team 1=England                      1.3404
+Team 1=Sri Lanka                    1.4187
+Team 1=Bangladesh                   0.3655
+Team 1=Netherlands                  0.0749
+Team 1=Ireland                       0.187
+Team 1=Afghanistan                  0.2571
+Team 1=Pakistan                      3.245
+Winner=New Zealand                  1.2114
+Winner=Pakistan                     0.0679
+Winner=Australia                    1.2722
+Winner=South Africa                 1.2473
+Winner=England                      1.2181
+Winner=India                        1.2657
+Winner=Zimbabwe                     1.1149
+Winner=Sri Lanka                    1.2123
+Winner=West Indies                  1.2364
+Winner=Bangladesh                   1.2124
+Winner=Netherlands                  1.1072
+Winner=Ireland                      1.0506
+Winner=Afghanistan                  1.0442
+Toss=won                             0.978
+Bat=first                           0.9243
+Team 2= West Indies                 1.4102
+Team 2= New Zealand                 0.6721
+Team 2= Pakistan                    2.3915
+Team 2= India                       0.4467
+Team 2= Australia                   0.2967
+Team 2= Zimbabwe                    5.3465
+Team 2= South Africa                0.4363
+Team 2= England                     0.6145
+Team 2= Bangladesh                  2.1508
+Team 2= Sri Lanka                   0.6732
+Team 2= Netherlands                12.6584
+Team 2= Ireland                     5.8222
+Team 2= Afghanistan                 3.6798
+Host_Country=New Zealand            0.9849
+Host_Country=Australia              0.9911
+Host_Country=South Africa            0.983
+Host_Country=Pakistan               1.1937
+Host_Country=Zimbabwe               1.0235
+Host_Country=India                  0.9993
+Host_Country=U.A.E                  0.9311
+Host_Country=West Indies             1.007
+Host_Country=Bangladesh             0.9836
+Host_Country=Sri Lanka               0.988
+Host_Country=England                1.0055
+Host_Country=Singapore              0.7149
+Host_Country=Netherlands            0.9672
+Host_Country=India                  0.9439
+Host_Country=Abu Dhabi              1.2553
+Host_Country=Ireland                0.9928
+Host_Country=Malaysia               1.0071
+Host_Country=Scotland               0.9874
+Host_Country=Netherlands            1.0067
+Venue_Team 1=Home                   0.0019
+Venue_Team 1=Away                 578.6701
+Venue_Team 1=Neutral                1.0073
+Venue_Team 2=Away                 789.1301
+Venue_Team 2=Home                   0.0011
+Venue_Team 2=Neutral                1.0073
+Inning_Team1=first                  0.9243
+Inning_Team2=2nd                    0.9243
+Team1_Toss=won                       0.978
+Team2_Toss=lost                      0.978
+Winner_Inning=1stinningwinner       0.9796
+pitchn=fast/green/swing/bouncy      0.9849
+pitchn=fast/ high bounce            0.9911
+pitchn=fast/high bounce              0.983
+pitchn= flat/dead                   1.1937
+pitchn=slow/dusty                   1.0063
+pitchn=flat/dead                    0.9955
+pitchn=flat/dead/dry                1.0075
+pitchn=dry/dusty                     0.988
+pitchn=fast/green/bouncy/swing      1.0055
+pitchn=fast/green/bouncy            0.9672
+pitchn=flat/dead                    0.9439
+pitchn=fast/green/bouncy            0.9938
+
+
+Time taken to build model: 1.16 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3101               68.8041 %
+Incorrectly Classified Instances      1406               31.1959 %
+Kappa statistic                          0.376 
+Mean absolute error                      0.3867
+Root mean squared error                  0.4435
+Relative absolute error                 77.3435 %
+Root relative squared error             88.6982 %
+Total Number of Instances             4507     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.680    0.304    0.688      0.680    0.684      0.376    0.766     0.764     won
+                 0.696    0.320    0.688      0.696    0.692      0.376    0.766     0.748     lost
+Weighted Avg.    0.688    0.312    0.688      0.688    0.688      0.376    0.766     0.756     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1524  716 |    a = won
+  690 1577 |    b = lost
+

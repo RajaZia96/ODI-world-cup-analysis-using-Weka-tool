@@ -1,6 +1,6 @@
 === Run information ===
 
-Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model "C:\\Program Files\\Weka-3-9" -seed 1
 Relation:     2000 to 2019-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R13
 Instances:    4507
 Attributes:   15
@@ -23,34 +23,32 @@ Test mode:    10-fold cross-validation
 
 === Classifier model (full training set) ===
 
-IB1 instance-based classifier
-using 1 nearest neighbour(s) for classification
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
 
-
-Time taken to build model: 0 seconds
+Time taken to build model: 4.38 seconds
 
 === Stratified cross-validation ===
 === Summary ===
 
-Correctly Classified Instances        4460               98.9572 %
-Incorrectly Classified Instances        47                1.0428 %
-Kappa statistic                          0.9791
-Mean absolute error                      0.0179
-Root mean squared error                  0.0986
-Relative absolute error                  3.5856 %
-Root relative squared error             19.7302 %
+Correctly Classified Instances        3924               87.0646 %
+Incorrectly Classified Instances       583               12.9354 %
+Kappa statistic                          0.7412
+Mean absolute error                      0.1294
+Root mean squared error                  0.3597
+Relative absolute error                 25.8718 %
+Root relative squared error             71.933  %
 Total Number of Instances             4507     
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.990    0.011    0.989      0.990    0.990      0.979    0.997     0.997     won
-                 0.989    0.010    0.990      0.989    0.990      0.979    0.997     0.996     lost
-Weighted Avg.    0.990    0.010    0.990      0.990    0.990      0.979    0.997     0.997     
+                 0.848    0.107    0.887      0.848    0.867      0.742    0.871     0.828     won
+                 0.893    0.152    0.856      0.893    0.874      0.742    0.871     0.818     lost
+Weighted Avg.    0.871    0.130    0.871      0.871    0.871      0.742    0.871     0.823     
 
 === Confusion Matrix ===
 
     a    b   <-- classified as
- 2217   23 |    a = won
-   24 2243 |    b = lost
+ 1899  341 |    a = won
+  242 2025 |    b = lost
 

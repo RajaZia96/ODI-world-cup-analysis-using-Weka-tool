@@ -1,0 +1,230 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     2000 to 2019-weka.filters.unsupervised.attribute.Remove-R17-weka.filters.unsupervised.attribute.Remove-R8-weka.filters.unsupervised.attribute.Remove-R7-weka.filters.unsupervised.attribute.Remove-R13
+Instances:    4507
+Attributes:   15
+              Team 1
+              Result
+              Winner
+              Toss
+              Bat
+              Team 2
+              Host_Country
+              Venue_Team 1
+              Venue_Team 2
+              Inning_Team1
+              Inning_Team2
+              Team1_Toss
+              Team2_Toss
+              Winner_Inning
+              pitchn
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Team 1 = New Zealand
+|   Winner = New Zealand: won (230.0)
+|   Winner = Pakistan: lost (27.0)
+|   Winner = Australia: lost (43.0)
+|   Winner = South Africa: lost (36.0)
+|   Winner = England: lost (21.0)
+|   Winner = India: lost (28.0)
+|   Winner = Zimbabwe: lost (7.0)
+|   Winner = Sri Lanka: lost (31.0)
+|   Winner = West Indies: lost (11.0)
+|   Winner = Bangladesh: lost (10.0)
+|   Winner = Netherlands: won (0.0)
+|   Winner = Ireland: won (0.0)
+|   Winner = Afghanistan: won (0.0)
+Team 1 = West Indies
+|   Winner = New Zealand: lost (23.0)
+|   Winner = Pakistan: lost (27.0)
+|   Winner = Australia: lost (37.0)
+|   Winner = South Africa: lost (37.0)
+|   Winner = England: lost (32.0)
+|   Winner = India: lost (46.0)
+|   Winner = Zimbabwe: lost (10.0)
+|   Winner = Sri Lanka: lost (20.0)
+|   Winner = West Indies: won (158.0/1.0)
+|   Winner = Bangladesh: lost (15.0)
+|   Winner = Netherlands: lost (0.0)
+|   Winner = Ireland: lost (2.0)
+|   Winner = Afghanistan: lost (3.0)
+Team 1 = Australia
+|   Winner = New Zealand: lost (22.0)
+|   Winner = Pakistan: lost (9.0)
+|   Winner = Australia: won (348.0)
+|   Winner = South Africa: lost (38.0)
+|   Winner = England: lost (33.0)
+|   Winner = India: lost (29.0)
+|   Winner = Zimbabwe: lost (2.0)
+|   Winner = Sri Lanka: lost (19.0)
+|   Winner = West Indies: lost (8.0)
+|   Winner = Bangladesh: lost (1.0)
+|   Winner = Netherlands: won (0.0)
+|   Winner = Ireland: won (0.0)
+|   Winner = Afghanistan: won (0.0)
+Team 1 = India
+|   Winner = New Zealand: lost (23.0)
+|   Winner = Pakistan: lost (26.0)
+|   Winner = Australia: lost (52.0)
+|   Winner = South Africa: lost (29.0)
+|   Winner = England: lost (27.0)
+|   Winner = India: won (339.0)
+|   Winner = Zimbabwe: lost (5.0)
+|   Winner = Sri Lanka: lost (34.0)
+|   Winner = West Indies: lost (24.0)
+|   Winner = Bangladesh: lost (7.0)
+|   Winner = Netherlands: won (0.0)
+|   Winner = Ireland: won (0.0)
+|   Winner = Afghanistan: won (0.0)
+Team 1 = South Africa
+|   Winner = New Zealand: lost (20.0)
+|   Winner = Pakistan: lost (21.0)
+|   Winner = Australia: lost (37.0)
+|   Winner = South Africa: won (296.0/1.0)
+|   Winner = England: lost (21.0)
+|   Winner = India: lost (29.0)
+|   Winner = Zimbabwe: lost (1.0)
+|   Winner = Sri Lanka: lost (26.0)
+|   Winner = West Indies: lost (10.0)
+|   Winner = Bangladesh: lost (6.0)
+|   Winner = Netherlands: won (0.0)
+|   Winner = Ireland: won (0.0)
+|   Winner = Afghanistan: won (0.0)
+Team 1 = Zimbabwe
+|   Winner = New Zealand: lost (16.0)
+|   Winner = Pakistan: lost (39.0)
+|   Winner = Australia: lost (14.0)
+|   Winner = South Africa: lost (38.0)
+|   Winner = England: lost (19.0)
+|   Winner = India: lost (35.0)
+|   Winner = Zimbabwe: won (87.0/1.0)
+|   Winner = Sri Lanka: lost (30.0)
+|   Winner = West Indies: lost (31.0)
+|   Winner = Bangladesh: lost (51.0)
+|   Winner = Netherlands: lost (2.0)
+|   Winner = Ireland: lost (8.0)
+|   Winner = Afghanistan: lost (23.0)
+Team 1 = England
+|   Winner = New Zealand: lost (25.0)
+|   Winner = Pakistan: lost (17.0)
+|   Winner = Australia: lost (56.0)
+|   Winner = South Africa: lost (17.0)
+|   Winner = England: won (240.0/1.0)
+|   Winner = India: lost (41.0)
+|   Winner = Zimbabwe: lost (3.0)
+|   Winner = Sri Lanka: lost (38.0)
+|   Winner = West Indies: lost (15.0)
+|   Winner = Bangladesh: lost (5.0)
+|   Winner = Netherlands: won (0.0)
+|   Winner = Ireland: lost (1.0)
+|   Winner = Afghanistan: won (0.0)
+Team 1 = Sri Lanka
+|   Winner = New Zealand: lost (33.0)
+|   Winner = Pakistan: lost (47.0/1.0)
+|   Winner = Australia: lost (35.0/1.0)
+|   Winner = South Africa: lost (38.0)
+|   Winner = England: lost (26.0)
+|   Winner = India: lost (68.0)
+|   Winner = Zimbabwe: lost (6.0)
+|   Winner = Sri Lanka: won (283.0/1.0)
+|   Winner = West Indies: lost (7.0)
+|   Winner = Bangladesh: lost (7.0)
+|   Winner = Netherlands: won (0.0)
+|   Winner = Ireland: won (0.0)
+|   Winner = Afghanistan: lost (1.0)
+Team 1 = Bangladesh
+|   Winner = New Zealand: lost (24.0)
+|   Winner = Pakistan: lost (26.0)
+|   Winner = Australia: lost (17.0)
+|   Winner = South Africa: lost (18.0)
+|   Winner = England: lost (17.0)
+|   Winner = India: lost (29.0)
+|   Winner = Zimbabwe: lost (24.0)
+|   Winner = Sri Lanka: lost (35.0)
+|   Winner = West Indies: lost (21.0)
+|   Winner = Bangladesh: won (124.0)
+|   Winner = Netherlands: lost (1.0)
+|   Winner = Ireland: lost (2.0)
+|   Winner = Afghanistan: lost (4.0)
+Team 1 = Netherlands: lost (35.0/6.0)
+Team 1 = Ireland
+|   Winner = New Zealand: lost (4.0)
+|   Winner = Pakistan: lost (7.0/1.0)
+|   Winner = Australia: lost (5.0)
+|   Winner = South Africa: lost (6.0)
+|   Winner = England: lost (8.0)
+|   Winner = India: lost (4.0)
+|   Winner = Zimbabwe: lost (8.0)
+|   Winner = Sri Lanka: lost (5.0)
+|   Winner = West Indies: lost (7.0)
+|   Winner = Bangladesh: lost (7.0)
+|   Winner = Netherlands: lost (1.0)
+|   Winner = Ireland: won (34.0)
+|   Winner = Afghanistan: lost (14.0)
+Team 1 = Afghanistan
+|   Winner = New Zealand: lost (3.0)
+|   Winner = Pakistan: lost (4.0)
+|   Winner = Australia: lost (4.0)
+|   Winner = South Africa: lost (1.0)
+|   Winner = England: lost (3.0)
+|   Winner = India: lost (3.0)
+|   Winner = Zimbabwe: lost (16.0)
+|   Winner = Sri Lanka: lost (5.0)
+|   Winner = West Indies: lost (5.0)
+|   Winner = Bangladesh: lost (6.0)
+|   Winner = Netherlands: lost (2.0)
+|   Winner = Ireland: lost (14.0)
+|   Winner = Afghanistan: won (48.0)
+Team 1 = Pakistan
+|   Winner = New Zealand: lost (13.0)
+|   Winner = Pakistan: won (49.0)
+|   Winner = Australia: lost (14.0)
+|   Winner = South Africa: lost (3.0)
+|   Winner = England: lost (11.0)
+|   Winner = India: lost (5.0)
+|   Winner = Zimbabwe: lost (1.0)
+|   Winner = Sri Lanka: lost (5.0)
+|   Winner = West Indies: lost (3.0)
+|   Winner = Bangladesh: lost (4.0)
+|   Winner = Netherlands: lost (0.0)
+|   Winner = Ireland: lost (0.0)
+|   Winner = Afghanistan: lost (0.0)
+
+Number of Leaves  : 	157
+
+Size of the tree : 	170
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4489               99.6006 %
+Incorrectly Classified Instances        18                0.3994 %
+Kappa statistic                          0.992 
+Mean absolute error                      0.0067
+Root mean squared error                  0.0595
+Relative absolute error                  1.3433 %
+Root relative squared error             11.8945 %
+Total Number of Instances             4507     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.996    0.004    0.996      0.996    0.996      0.992    0.998     0.996     won
+                 0.996    0.004    0.996      0.996    0.996      0.992    0.998     0.997     lost
+Weighted Avg.    0.996    0.004    0.996      0.996    0.996      0.992    0.998     0.997     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2231    9 |    a = won
+    9 2258 |    b = lost
+
